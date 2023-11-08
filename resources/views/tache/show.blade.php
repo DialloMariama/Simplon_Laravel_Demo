@@ -15,7 +15,7 @@
                 Terminée
             @else
                 En cours <br>
-                <a href="#" class="btn btn-primary">Terminer</a>
+                <a href="/tache/termine/{{$tacheTrouvee->id}}" class="btn btn-primary">Terminer</a>
             @endif
 
         </p>

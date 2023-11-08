@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarColor04">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home
+                    <a class="nav-link active" href="/tache/nouveau">Nouvelle
                         <span class="visually-hidden">(current)</span>
                     </a>
                 </li>
