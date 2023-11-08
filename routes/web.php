@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TacheController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/tache', function (){
-    return view('tache.taches');
-});
+Route::get('/tache',[TacheController::class, 'getListeTaches']);
+
+Route::get('/tache/{id_tache}/details',[TacheController::class, 'show']);
+
